@@ -1,0 +1,85 @@
+body{
+	font-family: "Times New Roman",times,serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 1em;	
+	background-color: #87BDE7;
+	//#85CEFF
+	//#82C9F8
+}
+
+.introductionContainer{
+	margin: 20px 80px 20px 80px;
+	background-color: #DFE2E1;
+	padding: 20px;
+}
+
+.informaticsLogo{
+	width: 100px;
+	height: 100px;
+	//float: left;
+}
+
+.headerTitle{
+	display: flex;
+	flex-direction: row;	
+	//border: 1px solid yellow;
+	margin-right: 100PX;
+}
+
+h1{
+	margin: auto;
+	font-size: 2em;
+	//border: 1px solid blue;
+
+}
+
+#infoTable{
+	margin: 40px auto;
+	border-collapse:collapse;
+	width: 60%;
+	//border: 1px solid blue;
+}
+#infoTable th{
+	background-color:#87BDE7;
+	color: #ECF0F1;
+	height: 50px;
+	//border: 1px solid blue;
+}
+#infoTable td{
+	text-align: center;
+	height: 50px;
+	vertical-align: middle;
+//	border: 1px solid blue;
+}
+
+#infoTable tr.custom td{
+	background-color:#CCD3E7;
+	color:#333;
+}
+
+#infoTable tr.classification th{
+	text-align:center;
+	background-color:#CCD3E7;
+	color:brown;
+	font-size: large;
+	font-weight: 400;
+}
+
+.tips{
+	width: 100px;
+	background-color: #87BDE7 ;
+	position: fixed;
+	left: 80px;
+	top: 150px;
+	text-align: center;
+	//#D7E5EE
+}
+.cart{
+	width: 200px;
+	background-color: whitesmoke;
+	position: fixed;
+	right: 90px;
+	text-align: center;
+	top: 150px;
+}
