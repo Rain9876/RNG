@@ -3,9 +3,10 @@ body{
 	font-weight: 200;
 	font-style: normal;
 	font-size: 1em;	
-	background-color: #87BDE7;
+	background-color: #3786c0;
 	//#85CEFF
 	//#82C9F8
+	//#87BDE7
 }
 
 .introductionContainer{
@@ -68,7 +69,7 @@ h1{
 
 .tips{
 	width: 100px;
-	background-color: #87BDE7 ;
+	background-color: #3786c0 ;
 	position: fixed;
 	left: 80px;
 	top: 150px;
@@ -76,10 +77,14 @@ h1{
 	//#D7E5EE
 }
 .cart{
+	border: 2px dashed whitesmoke;
+	border-radius: 2em;
 	width: 200px;
-	background-color: whitesmoke;
+	opacity: 0.5;
+	background: url(../img/paper.jpg);
+	//background-color: #87BDE7;
 	position: fixed;
-	right: 90px;
+	right: 100px;
 	text-align: center;
 	top: 150px;
 }
