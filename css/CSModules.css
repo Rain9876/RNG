@@ -3,20 +3,21 @@ body{
 	font-weight: 200;
 	font-style: normal;
 	font-size: 1em;	
-	background-color: #87BDE7;
+	background-color: #3786c0;
 	//#85CEFF
 	//#82C9F8
+	//#87BDE7
 }
 
 .introductionContainer{
-	margin: 20px 80px 20px 80px;
+	margin: 20px 60px 20px 60px;
 	background-color: #DFE2E1;
 	padding: 20px;
 }
 
 .informaticsLogo{
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
 	//float: left;
 }
 
@@ -24,7 +25,8 @@ body{
 	display: flex;
 	flex-direction: row;	
 	//border: 1px solid yellow;
-	margin-right: 100PX;
+	margin-right: 150PX;
+	margin-left: 30px;
 }
 
 h1{
@@ -68,18 +70,28 @@ h1{
 
 .tips{
 	width: 100px;
-	background-color: #87BDE7 ;
+	background-color: #3786c0 ;
 	position: fixed;
-	left: 80px;
-	top: 150px;
+	left: 60px;
+	top: 200px;
 	text-align: center;
 	//#D7E5EE
 }
 .cart{
-	width: 200px;
-	background-color: whitesmoke;
+	border: 2px dashed #87BDE7;
+	border-radius: 2em;
+	width: 220px;
+	opacity: 0.5;
+	background: url(../img/paper.jpg);
+	//background-color: #87BDE7;
 	position: fixed;
-	right: 90px;
+	right: 72px;
 	text-align: center;
-	top: 150px;
+	top: 200px;
+}
+
+.cartList{
+	list-style:decimal;
+	text-align: left;
+	line-height: 1.5em;
 }

@@ -5,14 +5,17 @@
 		<meta charset="UTF-8">
 		<title>CS module selection</title>
 		<link rel="stylesheet" href="../css/CSModules.css" type="text/css" />
+		<script src="../js/CSModules.js" type="text/javascript" ></script>
 	</head>
 
 	<body>
 		<div class="introductionContainer">
+
 			<div class="headerTitle">
-				<img class="informaticsLogo" src="../img/kclInforLogo.jpeg" />
+				<img  id = "logo" class="informaticsLogo" src="../img/kclInforLogo.jpeg" />
 				<h1>Computer Science modules introduction</h1>
 			</div>
+
 			<table border="0" id="infoTable">
 				<tr>
 					<th>
@@ -32,125 +35,162 @@
 				<tr class="classification">
 					<th colspan="4">Core modules</th>
 				</tr>
-
-				<tr>
-					<td>6CCS3PRJ</td>
-					<td>Individual Project</td>
-					<td>30</td>
-					<td><input type="checkbox" name="module selected" id="mod1"></input>
-					</td>
-				</tr>
+				<div id="CoreModule">
+					<tr id="M1">
+						<td>6CCS3PRJ</td>
+						<td>Individual Project</td>
+						<td>30</td>
+						<td><input type="checkbox" name="module selected" id="1"/>
+						</td>
+					</tr>
+				</div>
 
 				<tr class="classification">
 					<th colspan="4">Optional modules (Semester1)</th>
 				</tr>
+
 				<div id="Semester1">
-					<tr>
+					<tr id="M2">
 						<td>6CCS3AMS</td>
 						<td>Agents and Multi-Agent Systems</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod2"></input>
+						<td><input type="checkbox" name="module selected" id="2"/>
 						</td>
 					</tr>
 
-					<tr class="custom">
+					<tr class="custom" id="M3">
 						<td>6CCS3CFL</td>
 						<td>Compiler and Formal Languages</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod3"></input>
+						<td><input type="checkbox" name="module selected" id="3"/>
 						</td>
 					</tr>
-					<tr>
+
+					<tr id="M4">
 						<td>6CCS3COV</td>
 						<td>Computer Vision</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod4"></input>
+						<td><input type="checkbox" name="module selected" id="4"/>
 						</td>
 					</tr>
-					<tr class="custom">
+
+					<tr class="custom" id="M5">
 						<td>6CCS3CSL</td>
 						<td>Computer Science Logic</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod5"></input>
+						<td><input type="checkbox" name="module selected" id="5"/>
 						</td>
 					</tr>
-					<tr>
+
+					<tr id="M6">
 						<td>6CCS3HCI</td>
 						<td>Human-Computer Interaction</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod6"></input>
+						<td><input type="checkbox" name="module selected" id="6"/>
 						</td>
 					</tr>
-					<tr class="custom">
+
+					<tr class="custom" id="M7">
 						<td>6CCS3VER</td>
 						<td>Formal Verification</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod7"></input>
+						<td><input type="checkbox" name="module selected" id="7"/>
 						</td>
 					</tr>
-					<tr>
+
+					<tr id="M8">
 						<td>6CCS3WSN</td>
 						<td>Algorithms for the World Wide Web and Social Networks</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod8"></input>
+						<td><input type="checkbox" name="module selected" id="8"/>
 						</td>
 					</tr>
-					<tr class="custom">
+
+					<tr class="custom" id="M9">
 						<td>6CCS3SMT</td>
 						<td>Software Measurement and Testing</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod9"></input>
+						<td><input type="checkbox" name="module selected" id="9"/>
 						</td>
 					</tr>
-					<tr>
+					<tr id="M10">
 						<td>6CCS3GRS</td>
 						<td>Computer Graphics Systems</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod10"></input>
+						<td><input type="checkbox" name="module selected" id="10"/>
 						</td>
 					</tr>
-					<tr class="custom">
+
+					<tr class="custom" id="M11">
 						<td>6CCS3PAL</td>
 						<td>Parallel Algorithms</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod11"></input>
+						<td><input type="checkbox" name="module selected" id="11"/>
 						</td>
 					</tr>
-					<tr>
+
+					<tr id="M12">
 						<td>6CCS3AIN</td>
 						<td>Artificial Intelligence</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod12"></input>
+						<td><input type="checkbox" name="module selected" id="12"/>
 						</td>
 					</tr>
-					<tr class="custom">
+
+					<tr class="custom" id="M13">
 						<td>6CCS3CIS</td>
 						<td>Cryptography and Information Security</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod13"></input>
+						<td><input type="checkbox" name="module selected" id="13"/>
 						</td>
 					</tr>
-					<tr>
+
+					<tr id="M14">
 						<td>6CCS3AIP</td>
 						<td>Artificial Intelligence Planning</td>
 						<td>15</td>
-						<td><input type="checkbox" name="module selected" id="mod14"></input>
+						<td><input type="checkbox" name="module selected" id="14"/>
 						</td>
 					</tr>
+
 				</div>
 				<tr class="classification">
 					<th colspan="4">Optional modules (Semester2)</th>
 				</tr>
+				<div id="Semester2">
+					<tr id="M15">
+						<td>6CCS3DSM</td>
+						<td>Distributed Systems</td>
+						<td>15</td>
+						<td><input type="checkbox" name="module selected" id="15"/>
+						</td>
+					</tr>
+
+					<tr class="custom" id="M16">
+						<td>6CCS3COM</td>
+						<td>Computational Models</td>
+						<td>15</td>
+						<td><input type="checkbox" name="module selected" id="16"/>
+						</td>
+					</tr>
+
+				</div>
 			</table>
 			<aside>
-				<div class="tips">					
+				<div class="tips">
 					<h2>Tips</h2>
 				</div>
+				
 				<div class="cart">
 					<h2>Module selected</h2>
+					<div class="ModuleSelected" id="cartContent">
+						<ul class="cartList" id = "cartList">
+						</ul>
+					</div>
+					<input type="button" id="clear" value="clear">
+					<input type="submit" value="submit">
 				</div>
 			</aside>
 		</div>
 	</body>
-
 </html>

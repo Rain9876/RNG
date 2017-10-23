@@ -7,6 +7,20 @@
 		<link href="css/homePage.css" rel="stylesheet" type="text/css" />
 	</head>
 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; NAVIGATION</span>
+
+	<div id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <div class="overlay-content">
+	    <a href="#">test1</a>
+	    <a href="#">test2</a>
+	    <a href="#">test3</a>
+	    <a href="#">test4</a>
+	  </div>
+	</div>
+
+
+
 	<body>
 		<div class="pageContainer">
 		<header>
@@ -59,5 +73,16 @@
 			</div>
 		</footer>
 		</div>
+
+		<script>
+		function openNav() {
+		    document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		    document.getElementById("myNav").style.width = "0%";
+		}
+		</script>
+
 	</body>
 </html>
