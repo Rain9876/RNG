@@ -94,4 +94,10 @@ h1{
 	list-style:decimal;
 	text-align: left;
 	line-height: 1.5em;
+	color:#3786c0;
+}
+
+#errorMessage{
+	color: red;
+	font-size: 1em;
 }
