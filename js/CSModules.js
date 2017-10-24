@@ -77,6 +77,7 @@ function validateMessages() {
 		if(validate()) {
 			if(temp == 1){
 				document.getElementById("errorMessage").innerHTML = "";
+				window.location.href ="../successfulPage.html";
 				return true;
 			}else{
 				document.getElementById("errorMessage").innerHTML = "Confirm again !";
